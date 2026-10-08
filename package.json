@@ -1,0 +1,36 @@
+{
+  "name": "n8n-nodes-kraken",
+  "version": "1.1.2",
+  "description": "Kraken credential and node for n8n - full API coverage (public + private endpoints), automatic HMAC-SHA512 signing (native crypto, zero extra deps)",
+  "main": "dist/nodes/Kraken.node.js",
+  "scripts": {
+    "build": "tsc && cp nodes/kraken.svg dist/nodes/",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "n8n",
+    "n8n-community-node",
+    "kraken",
+    "crypto",
+    "exchange"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "n8n-workflow": "*"
+  },
+  "n8n": {
+    "credentials": [
+      "dist/credentials/KrakenApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Kraken.node.js"
+    ]
+  }
+}

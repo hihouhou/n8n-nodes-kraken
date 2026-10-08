@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- n8n node icon: stylized kraken (original artwork, Kraken brand-inspired violet) -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6C4DF6"/>
+      <stop offset="1" stop-color="#5741D9"/>
+    </linearGradient>
+    <linearGradient id="tent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCD6FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="url(#bg)"/>
+  <g fill="url(#tent)">
+    <!-- head / mantle -->
+    <ellipse cx="256" cy="210" rx="118" ry="100"/>
+    <!-- eyes -->
+    <ellipse cx="214" cy="222" rx="18" ry="22" fill="#5741D9"/>
+    <ellipse cx="298" cy="222" rx="18" ry="22" fill="#5741D9"/>
+    <circle cx="218" cy="216" r="7" fill="#FFFFFF"/>
+    <circle cx="302" cy="216" r="7" fill="#FFFFFF"/>
+    <!-- tentacles -->
+    <path d="M160 290 C 130 350 120 400 90 430 C 70 448 40 450 28 432 C 58 468 110 466 138 436 C 168 404 176 350 196 300 Z"/>
+    <path d="M212 300 C 204 360 200 410 178 444 C 164 466 138 472 120 460 C 148 486 190 478 208 448 C 228 414 232 356 240 306 Z"/>
+    <path d="M300 300 C 308 360 312 410 334 444 C 348 466 374 472 392 460 C 364 486 322 478 304 448 C 284 414 280 356 272 306 Z"/>
+    <path d="M352 290 C 382 350 392 400 422 430 C 442 448 472 450 484 432 C 454 468 402 466 374 436 C 344 404 336 350 316 300 Z"/>
+    <!-- front tentacle curls -->
+    <path d="M186 268 C 196 320 190 370 214 402 C 230 422 258 424 270 408 C 252 428 220 424 202 400 C 178 368 182 316 174 268 Z" opacity="0.92"/>
+    <path d="M326 268 C 316 320 322 370 298 402 C 282 422 254 424 242 408 C 260 428 292 424 310 400 C 334 368 330 316 338 268 Z" opacity="0.92"/>
+  </g>
+</svg>
